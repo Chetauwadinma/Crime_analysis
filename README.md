@@ -3,7 +3,7 @@ This in my first analysis on a crime dataset i got on kaggle
 #Crime Data Analysis
 This repository contains a crime data analysis project, exploring various aspects of crime incidents using Python's data science libraries. The analysis focuses on understanding crime distribution, offender and victim demographics, and relationships between different crime attributes.
 
-###
+---
 
 Table of Contents
 Project Overview
@@ -24,7 +24,8 @@ How to Run the Analysis
 
 Libraries Used
 
-###
+---
+
 
 Project Overview
 This project aims to provide insights into crime data by performing exploratory data analysis (EDA) and generating visualizations. The key questions addressed include:
@@ -45,6 +46,8 @@ The following analyses were performed, and their corresponding visualizations ar
 
 **Most Common Crime Categories**
 This analysis identifies the categories of crime that occur most frequently in the dataset.
+
+---
 
 **Visualization: Distribution of Crime by Category**
 
@@ -73,8 +76,9 @@ Relationship Between Offender Age and Victim Age
 This analysis investigates any patterns or correlations between the ages of offenders and victims. A hexbin plot is used to visualize dense data points effectively.
 
 Visualization: Relationship Between Offender Age and Victim Age (Hexbin Plot)
-(Note: The actual chart image is 'image_0bb41c.png' as provided.)
+![image](https://github.com/user-attachments/assets/71dd46a7-c4a8-4aa0-a4bd-bc40fa7ec914)
 
+---
 This hexbin plot illustrates the density of incidents based on offender and victim ages. Denser areas (darker hexagons) indicate a higher concentration of incidents involving offenders and victims within those age ranges. It helps to identify common age pairings in crime incidents.
 
 How to Run the Analysis
@@ -115,3 +119,5 @@ seaborn: For creating aesthetically pleasing statistical graphics.
 matplotlib.pyplot: For plotting and visualization.
 
 warnings: To manage warning messages.
+
+
